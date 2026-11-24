@@ -27,6 +27,8 @@ year:
   profit: {formula: "=SUM(months.profit)", value: 22247.0576117754}
   margin: {formula: "=profit / revenue", value: 0.0575115794868115}
   worst_month: {formula: "=MIN(months.profit)", value: -6402.78528}
+  food_cost_share:
+    formula: "=SUM(months.ingredients) / revenue"
 
 scenarios:
   base:
