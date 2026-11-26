@@ -5,7 +5,7 @@ _includes:
     as: costs
 
 shop:
-  price_per_dozen: 17
+  price_per_dozen: 18
   dozens_per_day: 55
   monthly_growth: 0.03
   open_days_per_month: 30
@@ -23,10 +23,10 @@ months:
   cash: "=PREV(cash, 0) + profit"
 
 year:
-  revenue: {formula: "=SUM(months.revenue)", value: 411004.165133942}
-  profit: {formula: "=SUM(months.profit)", value: 46423.7732078896}
-  margin: {formula: "=profit / revenue", value: 0.112952074811117}
-  worst_month: {formula: "=MIN(months.profit)", value: -5002.39728}
+  revenue: {formula: "=SUM(months.revenue)", value: 435180.880730056}
+  profit: {formula: "=SUM(months.profit)", value: 70600.4888040038}
+  margin: {formula: "=profit / revenue", value: 0.162232515099388}
+  worst_month: {formula: "=MIN(months.profit)", value: -3602.00928}
 
 scenarios:
   base:
