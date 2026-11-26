@@ -5,7 +5,7 @@ _includes:
     as: costs
 
 shop:
-  price_per_dozen: 17
+  price_per_dozen: 18
   dozens_per_day: 55
   monthly_growth: 0.03
   open_days_per_month: 30
